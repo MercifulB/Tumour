@@ -9,6 +9,7 @@ from werkzeug.utils import secure_filename
 
     
 app = Flask(__name__)
+server = app.server
 
 
 model=load_model('BrainTumor10Epochs.h5')
